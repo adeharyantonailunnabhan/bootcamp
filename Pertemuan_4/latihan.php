@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $penumpang = [
     'Jhon',
@@ -10,79 +10,83 @@ $halteA = [
     'Budi',
     'Caca'
 ];
+$halteC = [
+    'Felicia',
+    'Gina'
+];
 
-$halteB = ['Dedi'];
-
-$halteC = ['Felicia', 'Gina'];
-
-$penumpangCount = count($penumpang);
-echo "Jumlah penumpang bus : {$penumpangCount} <br>";
-echo "Penumpang bus : ";
+echo "Jumlah penumpang bus : ";
+echo count($penumpang);
+echo "<br>Penumpang bus : ";
 echo "<pre>";
 print_r($penumpang);
 echo "</pre>";
 
 echo "Halte A : <br>";
-echo "Jumlah penumpang bus yang turun  : {$penumpangCount}<br>";
-echo "Penumpang bus yang turun : ";
-$penumpang_slice = array_slice($penumpang, 0);
+echo "Jumlah penumpang bus yang turun  : ";
+echo count($penumpang);
+echo "<br>Penumpang bus yang turun : ";
 echo "<pre>";
-print_r($penumpang_slice);
+print_r($penumpang);
 echo "</pre>";
 
-$halteACount = count ($halteA);
-echo "Jumlah penumpang bus yang naik : {$halteACount}<br>";
-echo "Penumpang Halte A yang naik : ";
-echo "<pre>";
-print_r($halteA);
-echo "</pre>";
-
-echo "Jumlah penumpang bus sekarang : {$halteACount}<br>";
-echo "Penumpang bus sekarang : ";
+echo "Jumlah penumpang bus yang naik : ";
+echo count($halteA);
+echo "<br>Penumpang Halte A yang naik : ";
 echo "<pre>";
 print_r($halteA);
 echo "</pre>";
 
+echo "Jumlah penumpang bus sekarang : ";
+echo count($halteA);
+echo "<br>Penumpang bus sekarang : ";
+echo "<pre>";
+print_r($halteA);
+echo "</pre>";
+
+$penumpang_splice = array_splice($halteA,  0, 2);
 echo "Halte B : <br>";
-echo "Jumlah penumpang bus yang turun  : {$penumpangCount}<br>";
-echo "Penumpang bus yang turun : ";
-$penumpang_slice = array_slice($halteA, 0, 2);
+echo "Jumlah penumpang bus yang turun  : ";
+echo count($penumpang_splice);
+echo "<br>Penumpang bus yang turun : ";
+echo "<pre>";
+print_r($penumpang_splice);
+echo "</pre>";
+
+echo "Jumlah penumpang bus yang naik : ";
+echo count($halteA);
+array_push($halteA, 'Dedi');
+$penumpang_slice = array_slice($halteA, 1);
+echo "<br>Penumpang Halte B yang naik : ";
 echo "<pre>";
 print_r($penumpang_slice);
 echo "</pre>";
 
-$halteBCount = count($halteB);
-echo "Jumlah penumpang bus yang naik : {$halteBCount}<br>";
-echo "Penumpang Halte B yang naik : ";
+echo "Jumlah penumpang bus sekarang : ";
+echo count($halteA);
+echo "<br>Penumpang bus sekarang : ";
 echo "<pre>";
-print_r($halteB);
-echo "</pre>";
-
-echo "Jumlah penumpang bus sekarang : {$penumpangCount}<br>";
-echo "Penumpang bus sekarang : ";
-$merge = array_merge($halteA, $halteB);
-$penumpang_slice = array_slice($merge, 2, 3);
-echo "<pre>";
-print_r($penumpang_slice);
+print_r($halteA);
 echo "</pre>";
 
 echo "Halte C : <br>";
-echo "Jumlah penumpang bus yang turun  : {$penumpangCount}<br>";
-echo "Penumpang bus yang turun : ";
-$penumpang_slice = array_slice($merge, 2, 3);
+echo "Jumlah penumpang bus yang turun : ";
+echo count($halteA);
+echo "<br>Penumpang bus yang turun : ";
 echo "<pre>";
-print_r($penumpang_slice);
+print_r($halteA);
 echo "</pre>";
 
-$halteCCount = count($halteC);
-echo "Jumlah penumpang bus yang naik : {$halteCCount}<br>";
-echo "Penumpang Halte C yang naik : ";
+echo "Jumlah penumpang bus yang naik : ";
+echo count($halteC);
+echo "<br>Penumpang Halte C yang naik : ";
 echo "<pre>";
 print_r($halteC);
 echo "</pre>";
 
-echo "Jumlah penumpang bus sekarang : {$halteCCount}<br>";
-echo "Penumpang bus sekarang : ";
+echo "Jumlah penumpang bus sekarang : ";
+echo count($halteC);
+echo "<br>Penumpang bus sekarang : ";
 echo "<pre>";
 print_r($halteC);
 echo "</pre>";
