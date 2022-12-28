@@ -1,0 +1,60 @@
+Nama		: Ade Haryanto
+Kelas		: Back-End Development {Bootcamp}
+
+Apa itu Back-End?
+Back-end merupakan sisi server atau server side dari sebuah website atau aplikasi.
+Jadi, back end developer adalah seorang yang memiliki keahlian untuk merancang atau
+mengembangkan software di sisi server yang berkaitan dengan logika serta database.
+
+Apa bedanya dengan Front-End?
+Seorang Front End Developer bertanggung jawab atas komposisi tampilan sebuah website dan aplikasi.
+Mulai dari isi konten, warna-jenis-ukuran font, gambar, serta tombol-tombol yang terdapat
+harus membuat pengguna merasa nyaman ketika melihat dan berinteraksi di dalamnya. Mereka
+menggunakan HTML, CSS, JS, atau Kerangka kerja seperti bootsrap.
+Sedangkan untuk cara kerja Back End Developer, adalah dengan melakukan kontrol dari sisi server,
+sistem, dan database. Bahasa pemrograman yang biasanya digunakan dalam back end adalah
+PHP, Ruby, dan Phyton, Java, C#, Rust, GO. Kerangka kerja yang digunakan Next, Laravel, CI, dll.
+
+Tujuan Belajar Back-End Development?
+- Membangun kerangka kerja atau arsitektur suatu sistem
+- Membantu komunikasi database dengan baris kode
+- Membuat dan menyiapkan API (Application Programming
+- Interface) yang akan disiapkan untuk Front-End Developer
+
+Languange
+JS > NextJS, Socket.io, Meteor JS, Koa JS, ExpressJS, Adonis JS, Hapi JS, Nest JS.
+Python > Django, Flask, Falcon
+Java > SpringBoot, Strust, DropWizard
+PHP > Laravel, CodeIgniter, YII, CakePHP
+Ruby > Ruby on Rails, Sinatra, Ramaze, Hanami
+C# > ASP.Net
+Rust > Rocket, Actix, Gotham, WASM
+Golang > Beego, Gin, Echo, GOji
+
+
+Pengenalan Tools
+- Integrated Development Environment (IDE)
+- Universal Development Environment (UDE)
+- Versioning Control System (VCS)
+- Browser
+- API Platform
+
+IDE
+- VCS
+- Sublime
+- JetBrains
+
+UDE
+- Laragon
+- XAMPP
+
+VCS
+- Git > GitHub, GitLab, Bitbucket
+
+Browser
+- Google Chrome
+- Microsoft Edge
+- Forefox
+
+API
+- Postman
